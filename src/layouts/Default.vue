@@ -1,10 +1,10 @@
 <template>
   <div class="flex flex-col min-h-screen bg-black">
-    <header class="fixed mx-auto w-full py-5 pr-12 top-0 sm:flex sm:justify-between">
+    <header class="fixed mx-auto bg-black w-full py-5 pr-12 top-0 sm:flex sm:justify-between">
       <div class="flex items-center justify-between">
         <div class="navwrapper flex w-full justify-between">
           <div>
-            <g-image alt="Goodboy logo" src="~/goodboylogosvg.svg" class="h-8" />
+            <g-image alt="Goodboy logo" src="../../static/goodboylogosvg.svg" class="h-8" />
           </div>
           <div>
             <button
@@ -63,18 +63,18 @@
         <ul class="flex items-center mt-4 sm:mt-0">
           <li class="mr-8">
             <a href="/">
-              <g-image alt="logo" src="~/icons8-facebook-30.png" width="30px" />
+              <g-image alt="logo" src="../../static/icons8-facebook-30.png" width="30px" />
             </a>
           </li>
           <li class="mr-8">
             <a href="/">
-              <g-image alt="logo" src="~/icons8-instagram-30.png" width="30px" />
+              <g-image alt="logo" src="../../static/icons8-instagram-30.png" width="30px" />
             </a>
           </li>
           <li class="mr-8">
             <a href="/">
               <a href="/">
-                <g-image alt="logo" src="~/icons8-twitter-squared-30.png" width="30px" />
+                <g-image alt="logo" src="../../static/icons8-twitter-squared-30.png" width="30px" />
               </a>
             </a>
           </li>

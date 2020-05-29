@@ -1,12 +1,28 @@
 <template>
   <Layout>
-    <!-- Learn how to use images here: https://gridsome.org/docs/images -->
-    <g-image alt="Example image" src="~/favicon.png" width="135" />
-
-    <h1 class="animate__bounce text-green-600 font-bold text-3xl mt-8 font-display">Hello, world!</h1>
-
-    <p
-      class="text-green-400 border-b-2 border-green-400 mt-2 font-body"
-    >This totally has Tailwind installed.</p>
+    <section
+      id="home"
+      class="heroimg text-center h-screen w-full flex flex-col items-center justify-start"
+    >
+      <div class="w-auto mt-40">
+        <h2 class="herotext mb-8 leading-tight font-heading text-yellow-500">Who's A GoodBoy</h2>
+        <button
+          class="py-4 px-5 border-2 border-yellow-500 rounded text-white hover:bg-yellow-500 hover:text-black text-xl"
+        >I'm A Goodboy!</button>
+      </div>
+    </section>
   </Layout>
 </template>
+
+<style scoped>
+.heroimg {
+  background-image: url("../../static/heroimg.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: bottom center;
+}
+.herotext {
+  font-size: 7rem;
+  font-family: "Anton", sans-serif;
+}
+</style>
