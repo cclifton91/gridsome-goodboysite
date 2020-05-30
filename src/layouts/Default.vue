@@ -1,10 +1,12 @@
 <template>
   <div class="flex flex-col min-h-screen bg-black">
-    <header class="fixed mx-auto bg-black w-full py-5 pr-12 top-0 sm:flex sm:justify-between">
+    <header class="fixed mx-auto bg-black w-full py-5 pr-12 top-0 sm:flex sm:justify-between z-10">
       <div class="flex items-center justify-between">
         <div class="navwrapper flex w-full justify-between">
           <div>
-            <g-image alt="Goodboy logo" src="../../static/goodboylogosvg.svg" class="h-8" />
+            <a href="#home">
+              <g-image alt="Goodboy logo" src="../../static/goodboylogosvg.svg" class="h-8" />
+            </a>
           </div>
           <div>
             <button
@@ -37,11 +39,11 @@
         class="text-white py-6 pb-4 text-right sm:block sm:py-0"
       >
         <a
-          href="#"
+          href="#about"
           class="block text-yellow-500 sm:inline-block sm:mr-6 font-semibold hover:bg-gray-900 hover:text-white"
         >About</a>
         <a
-          href="#"
+          href="#services"
           class="block mt-2 text-yellow-500 sm:inline-block sm:mr-6 font-semibold hover:bg-gray-900 hover:text-white"
         >Services</a>
         <a
@@ -54,12 +56,12 @@
         >Contact</a>
       </nav>
     </header>
-    <main class="h-screen flex flex-col justify-center items-center">
+    <main class="flex flex-col justify-center items-center">
       <slot />
     </main>
     <footer class="bg-yellow-500 text-black">
       <div class="container mx-auto flex flex-col sm:flex-row items-center justify-between py-8">
-        <div>Copyright 2020. All Rights Reserved</div>
+        <p class="font-body text-sm">Copyright 2020. All Rights Reserved.</p>
         <ul class="flex items-center mt-4 sm:mt-0">
           <li class="mr-8">
             <a href="/">
