@@ -47,11 +47,11 @@
           class="block mt-2 text-yellow-500 sm:inline-block sm:mr-6 font-semibold hover:bg-gray-900 hover:text-white"
         >Services</a>
         <a
-          href="#"
+          href="#testimonials"
           class="block mt-2 text-yellow-500 sm:inline-block sm:mr-6 font-semibold hover:bg-gray-900 hover:text-white"
         >Testimonials</a>
         <a
-          href="#"
+          href="#contact"
           class="block mt-2 text-yellow-500 sm:inline-block sm:mr-6 font-semibold hover:bg-gray-900 hover:text-white"
         >Contact</a>
       </nav>
@@ -91,7 +91,7 @@
 export default {
   data() {
     return {
-      isOpen: true
+      isOpen: false
     };
   }
 };
@@ -104,3 +104,9 @@ query {
   }
 }
 </static-query>
+
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

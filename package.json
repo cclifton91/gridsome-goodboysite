@@ -6,7 +6,8 @@
 		"explore": "gridsome explore"
 	},
 	"dependencies": {
-		"gridsome": "latest"
+		"gridsome": "latest",
+		"vue-static-map": "^3.0.2"
 	},
 	"devDependencies": {
 		"gridsome-plugin-tailwindcss": "latest"
