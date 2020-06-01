@@ -1,3 +1,3 @@
-![](src/cover.png)
+# GoodBoy Landing Page
 
-# Tailwind + Gridsome 😍
+### A simple one page website using Gridsome and Tailwind
